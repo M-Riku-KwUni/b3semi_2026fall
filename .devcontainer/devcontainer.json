@@ -1,0 +1,14 @@
+{
+  "name": "Anaconda",
+  "image": "mcr.microsoft.com/devcontainers/anaconda:3",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-python.python"
+      ],
+      "settings": {
+        "python.defaultInterpreterPath": "/opt/conda/bin/python"
+      }
+    }
+  }
+}
