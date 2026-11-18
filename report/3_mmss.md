@@ -40,7 +40,7 @@ M/M/S/S のシミュレーションを行い、客の到着率とサーバ数に
 
 以下に、サーバ数を5、終了時間を10000とした場合のロス率を示す。横軸は負荷 \(a=\lambda/\mu\)、縦軸はロス率である。M/M/S/S のシミュレーション結果をアーランB式の理論値と比較し、さらにサービス時間の分布を変更した場合の結果を示した。
 
-![M/M/S/S and M/G/S/S simulation](https://raw.githubusercontent.com/M-Riku-KwUni/b3semi_2026fall/main/report/figure/03/mmss_S5_t_end_10000.png)
+<img src="figure/03/mmss_S5_t_end_10000.png" alt="M/M/S/S and M/G/S/S simulation">
 
 負荷 \(a\) が大きくなるほど、サーバが使用中である確率が高くなるため、ロス率も大きくなる。また、M/M/S/S のシミュレーション結果は、アーランB式による理論値におおむね近い値となる。
 
